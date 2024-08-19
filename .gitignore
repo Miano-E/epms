@@ -1,0 +1,28 @@
+# Ignore readme file
+README.md
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and editor-specific files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore compiled files
+*.class
+*.exe
+
+# Ignore specific files
+# Uncomment and adjust the paths to ignore specific files
+# /path/to/file-to-ignore.txt
+
+# Ignore all files with a specific extension in a directory
+path/to/directory/*.ext
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

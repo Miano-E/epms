@@ -1,0 +1,161 @@
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3.7em;
+        padding: 1em;
+        animation: none; /* Remove the growIn animation */
+        transform: scale(1);
+    }
+
+    .right-col {
+        display: flex;
+        justify-content: center; /* Center child elements horizontally */
+        align-items: center; /* Center child elements vertically, if needed */
+        flex-direction: column; /* Stack child elements vertically */
+        order: 1;
+    }
+
+    .card2-img {
+        margin: 0 auto;
+        display: block; /* Show image in mobile view */
+        width: 100%; /* Ensure it takes full width of its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .left-col {
+        order: 2;
+    }
+
+    .left-col h1 {
+        font-size: 2.2rem;
+    }
+
+    .left-col .subhead {
+        font-size: 1.4rem;
+    }
+
+    .left-col .cta-btn {
+        border: none;
+        padding: .5em 1em;
+        font-size: 1.4rem;
+        margin: 1.3em auto;
+    }
+
+    .overlay {
+        position: unset;
+        animation: none; /* Remove the reveal animation */
+        transform: scaleY(1); /* Ensure no scaling */
+    }
+
+    .left-col,
+    .right-col {
+        margin: auto;
+        width: 100%;
+    }
+
+    .cta-btn {
+        text-align: center;
+    }
+
+    .right-arrow {
+        display: none;
+    }
+
+    .card {
+        display: none;
+        width: 100%;
+        margin-bottom: 20px;
+        transition: none;
+        height: auto;
+    }
+
+    .contain {
+        padding: 1em;
+        margin-top: -3em;
+    }
+
+    .contain p {
+        text-align: center;
+    }
+
+    .wrap {
+        display: block;
+        margin: auto;
+    }
+
+    p .sub {
+        width: 100%;
+    }
+
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
+
+    .col-left h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0;
+        /* align-items: center; */
+    }
+
+
+    .contain h5 {
+        font-size: 2rem;
+    }
+
+    .col-left img {
+        margin-right: 0;
+    }
+
+    .wrapper {
+        margin: 3em 1em;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center child elements horizontally */
+        text-align: center;
+        padding: 1em;
+    }
+
+    .contain ul {
+        list-style-type: disc; /* Use disc bullets for list items */
+        display: flex;
+        flex-direction: column; /* Stack list items vertically */
+        align-items: center; /* Center list items horizontally */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+        width: 100%; /* Full width to ensure centering within .contain */
+    }
+
+    .contain ul li {
+        width: auto; /* Automatically adjust width based on content */
+        margin: 0.5em 0; /* Add vertical space between list items */
+        text-align: left; /* Align text to the left within each list item */
+    }
+    .feature .chicken:hover {
+        transform: none; /* Remove hover transform */
+    }
+
+    .feature .Chicken:hover {
+        transform: none; /* Remove hover transform */
+    }
+
+    .logo1:hover {
+        transform: none; /* Remove hover transform */
+    }
+}

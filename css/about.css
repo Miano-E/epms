@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+body {
+    margin: 0;
+    font-family: 'Poppins', san-serif;
+}
+
+nav{
+    margin: 4em;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    margin: 0;
+}
+
+
+nav ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+}
+
+nav ul li a.active:before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    border-bottom: 2px solid black;
+    bottom: -6px;
+}
+
+nav ul li a:before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 1px;
+    border-bottom: 2px solid grey;
+    bottom: -6px;
+    transition: width .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16em;
+    margin-top: -1em;
+}
+
+.logo1 {
+    width: 65px;
+    cursor: pointer;
+    transition: transform 1200ms; 
+}
+
+.logo {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: -1px;
+    text-decoration: none;
+    
+}
+
+.logo span {
+    color: #01bbb8;
+}
+
+section {
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+nav ul li a:hover:before{
+    width: 45%;
+}
+
+footer {
+    padding: 1em;
+    background-color: #eceffc;
+    margin-top: 4.8em;
+    text-align: center;
+}
+  
